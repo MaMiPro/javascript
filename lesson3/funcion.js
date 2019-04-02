@@ -166,10 +166,10 @@ let  copyArr = oldArr.slice();
 // рекурсия
     // написать функцию, которая будет выводить в консоль числа от 0 до n в обратном порядке
 
-   function printNums (num) {
+   function printNum(num) {
        let i = num;
        while (i >= 0) {
-           console.log(num: nun-1);
+           console.log(num: num-1);
            i--;
        }
 
@@ -183,7 +183,21 @@ let  copyArr = oldArr.slice();
 
    printNum(4)
 
+
+
+
+// arguments - переменное количество аргументов
+    function prinUserInfo() {
+// arguments - хранит все аргументы которые передаются в фунцию при вводе
+        console.log("arguments")
+    }
+
+prinUserInfo("Mike", "56")
+
+
 }()  );
+
+
 
 
 
