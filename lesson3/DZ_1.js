@@ -23,7 +23,7 @@ function srv() {
 }
 srv();
 
-
+//2
 function sumFromTo(from, to) {
     if (to === from) return from;
     if (to === from + 1) return from + to;
@@ -32,3 +32,20 @@ function sumFromTo(from, to) {
 
 console.log(sumFromTo(1, 55));
 console.log(sumFromTo(1, 37));
+
+sumFromTo();
+
+//3
+
+
+//4
+/*function tovar(count) {
+    if (count==1){
+        console.log(count+' товар')
+    } else if (count); */
+
+// не доделал
+
+
+}
+

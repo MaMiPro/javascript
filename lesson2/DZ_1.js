@@ -84,3 +84,9 @@ else {
 }
 
 
+//4.2
+let sum = 2;
+for (let i = 2; i <=20; i++) {
+     sum = sum + sum;
+     console.log(sum);
+}
