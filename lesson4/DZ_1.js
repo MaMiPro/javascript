@@ -7,3 +7,21 @@
     Вы их присваиваете переменной.
     Переставьте названия так, чтобы они были упорядочены по алфавиту.-*/
 
+//2
+let adress = [`48-ой дом`, `9-ый koрпус`, `2-я парадная`, `4-ый этаж`];
+
+function sorti(arr) {
+    for (let i=0; i<arr.length; i++) {
+        arr[i] = parseFloat(arr[i])
+    }
+
+    return arr;
+}
+
+console.log( sorti(adress));
+
+
+//3
+let goroda = [`Москва`, `Самара`, `Новгород`, `Псков`, `Архангельск`];
+goroda.sort();
+console.log(goroda);
